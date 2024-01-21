@@ -5,7 +5,7 @@ function sayHello() {
         return;
     }
 
-    let hello = document.getElementById("helloText");
+    let hello = document.getElementById("helloTexti");
     hello.innerHTML = `Hola ${inp.value}. This is my first CF app.`;
     hello.style.display = "block";
 }
